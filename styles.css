@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.card, .cart {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.in {
+  color: green;
+}
+
+.out {
+  color: red;
+}
+
+.cart-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
